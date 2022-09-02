@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+
+    <link rel="shortcut icon" type="image/png" href="img/Logo 4.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    
+    <title>Mapa de Clientes</title>
+
+<style>
+
+
+    body {
+    margin: 0;
+    padding: 0;
+    background-color: #f37019;
+  }
+
+    #map{
+            height: 600px;
+            width: 600px;
+            margin: 5rem auto;
+        }
+
+        
+.type1 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.type2 {
+    width: 32%;
+    height: 64%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.type3 {
+    width: 25%;
+    height: 4%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.type4 {
+    width: 25%;
+    height: 4%;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <div style="display: flex; justify-content: center;">
+
+    <a href="https://seriplaca.pt/" target="_blank noopener"  >
+        <img src="Logo.png" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Logo.png" width="200px">
+    </a>
+
+
+</div>
+
+
+<div>
+    <img src="Barra Preta BG.webp" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Barra Preta BG.webp" width="500px" height="100px" class="type1">
+    <img src="Barra Preta BG.webp" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Barra Preta BG.webp" width="500px" height="100px" class="type2">
+    <img src="Conheça Clientes.png" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Conheça Clientes.png" width="500px" height="100px" class="type3">
+    <img src="Conheça Parceiros.png" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Conheça Parceiros.png" width="500px" height="100px" class="type4">
+</div>
+
+<div id="map">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="main.js"></script>
+</div>
+
+</body>
+</html>
