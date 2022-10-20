@@ -7,87 +7,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="shortcut icon" type="x-icon" href="Logo Website.png">
     <title>Mapa de Clientes</title>
-
-<style>
-
-
-    body {
-    margin: 0;
-    padding: 0;
-    background-color: #f37019;
-  }
-
-    #map{
-            height: 600px;
-            width: 600px;
-            margin: 5rem auto;
-        }
-
-        
-.type1 {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.type2 {
-    width: 32%;
-    height: 64%;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.type3 {
-    width: 25%;
-    height: 4%;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.type4 {
-    width: 25%;
-    height: 4%;
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-</style>
 
 </head>
 
 <body>
 
-    <div style="display: flex; justify-content: center;">
+    <div class="logo">
+        <a href="https://seriplaca.pt/">
+            <img src="Logo.png" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Logo.png" width="200px">
+        </a>
+    </div>
 
-    <a href="https://seriplaca.pt/" target="_blank noopener"  >
-        <img src="Logo.png" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Logo.png" width="200px">
-    </a>
+    <div class="upper_text">
+        <h1> CONHEÇA OS NOSSO CLIENTES </h1>
+    </div>
+
+    <div class="r">
+        <div class="Rectangle"></div>
+    </div>
+
+    <div class="r2">
+        <div class="Rectangle"></div>
+    </div>
+
+    <div class="r3">
+        <div class="Rectangle"></div>
+    </div>
+
+    <div id="map">
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+        <script src="main.js"></script>
+    </div>
 
 
-</div>
-
-
-<div>
-    <img src="Barra Preta BG.webp" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Barra Preta BG.webp" width="500px" height="100px" class="type1">
-    <img src="Barra Preta BG.webp" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Barra Preta BG.webp" width="500px" height="100px" class="type2">
-    <img src="Conheça Clientes.png" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Conheça Clientes.png" width="500px" height="100px" class="type3">
-    <img src="Conheça Parceiros.png" alt="C:\Users\Miguel Silva\Desktop\Mapa Website Teste\Conheça Parceiros.png" width="500px" height="100px" class="type4">
-</div>
-
-<div id="map">
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <script src="main.js"></script>
-</div>
+    <div class="bottom_text">
+        <h1> CONHEÇA OS SEUS PARCEIROS! </h1>
+    </div>
 
 </body>
 </html>
