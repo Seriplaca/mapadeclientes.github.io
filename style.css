@@ -19,27 +19,6 @@ html{
     height: -webkit-fill-avaliable;
 }
 
-
-.r{
-    position: absolute;
-    left: 50%;
-    top: 57.5%;
-    transform: translate(-50%,-50%);
-    width: 610px;
-    height: 610px;
-    background: black;
-}
-
-.r2{
-    position: absolute;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%,-50%);
-    width: 1920px;
-    height: 20px;
-    background: black;
-}
-
 .logo{
     display: flex; 
     justify-content: center;

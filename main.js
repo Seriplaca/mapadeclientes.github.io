@@ -35,7 +35,7 @@ const marker21 = L.marker([38.709790, -9.434490]).addTo(map); // Auto Chico
 const marker22 = L.marker([38.844095, -7.578165]).addTo(map); // Lapão
 const marker23 = L.marker([38.548770, -8.882860]).addTo(map); // Auto Avenida
 const marker24 = L.marker([40.362070, -8.031350]).addTo(map); // Travassos Automoveis
-const marker25 = L.marker([41.007092, -8.549260]).addTo(map); // Lua Crescente
+
 const marker26 = L.marker([38.722431, -9.217380]).addTo(map); // Motolusa
 const marker27 = L.marker([41.558924, -8.657844]).addTo(map); // Benjamim Araújo
 const marker28 = L.marker([38.790271, -9.195037]).addTo(map); // Mendinhas Car
@@ -59,7 +59,7 @@ const marker105 = L.marker([38.7223272358691, -7.985631307986344]).addTo(map); /
 const marker106 = L.marker([38.05429629874746, -8.788765075814581]).addTo(map); // Stand Os Putos Lda Santo André
 const marker107 = L.marker([37.96059774481567, -8.858073107547868]).addTo(map); // Stand Os Putos Lda Sines
 const marker108 = L.marker([39.68527178997252, -8.89541445564748]).addTo(map); // Vipomcar - Comércio de Automóveis LDA
-const marker109 = L.marker([38.554951760278136, -7.908899963661593]).addTo(map); // Gestauto
+const marker109 = L.marker([38.554951760278136, -7.908899963661593]).addTo(map); // Nissan Boutigest
 const marker110 = L.marker([39.73135214048167, -8.826494363961858]).addTo(map); //  A. Braz Heleno - BMW e Mini Service 
 const marker111 = L.marker([38.677471643293984, -9.317677298444975]).addTo(map); // West Coast
 const marker112 = L.marker([37.74099507226541, -25.675166776605046]).addTo(map); // Horácio Silva Garcia
@@ -88,17 +88,16 @@ const marker131 = L.marker([39.47457888912671, -8.552362759794736]).addTo(map); 
 
 const marker31 = L.marker([39.254912, -8.713332]).addTo(map); // Litocar Santarém
 const marker32 = L.marker([39.465684, -8.547260]).addTo(map); // Litocar Torres Novas
-const marker33 = L.marker([40.145116, -8.465875]).addTo(map); // Litocar Coimbra
+
 const marker34 = L.marker([40.237647, -8.435461]).addTo(map); // Litocar Coimbra
-const marker45 = L.marker([40.145385, -8.465721]).addTo(map); // Litocar Coimbra
 const marker51 = L.marker([40.237816, -8.435361]).addTo(map); // Litocar Coimbra
 const marker35 = L.marker([40.179797, -8.828837]).addTo(map); // Litocar Figueira da Foz
 const marker36 = L.marker([40.355129, -8.608399]).addTo(map); // Litocar Cantanhede
 const marker37 = L.marker([39.808366, -7.518822]).addTo(map); // Renault Castelo Branco
 const marker38 = L.marker([40.135943, -8.487672]).addTo(map); // Litocar Cernache
-const marker39 = L.marker([39.807921, -7.519306]).addTo(map); // Litocar Castelo Branco
+
 const marker40 = L.marker([40.918461, -8.574390]).addTo(map); // Litocar Santa Maria da Feira
-const marker41 = L.marker([40.265911, -7.494656]).addTo(map); // Litocar Covilhã
+
 const marker42 = L.marker([40.360597, -7.837660]).addTo(map); // Litocar Oliveira do Hospital
 const marker43 = L.marker([40.918773, -8.573837]).addTo(map); // Litocar Santa Maria da Feira
 const marker44 = L.marker([40.179386, -8.828829]).addTo(map); // Litocar Figueira da Foz
@@ -107,29 +106,20 @@ const marker47 = L.marker([39.811069, -7.518459]).addTo(map); // Litocar Castelo
 const marker48 = L.marker([40.266056, -7.494911]).addTo(map); // Litocar Covilhã 
 const marker49 = L.marker([40.635958, -7.845667]).addTo(map); // Litocar Viseu
 const marker50 = L.marker([38.837455, -9.093544]).addTo(map); // Litocar Viseu
-const marker52 = L.marker([40.636162, -7.844921]).addTo(map); // Litocar Viseu
+
 
 
 // A MatosCar
 
 const marker55 = L.marker([38.550655, -7.912422]).addTo(map); // A MatosCar Évora
-const marker56 = L.marker([38.549895, -7.913253]).addTo(map); // A MatosCar Évora
-const marker57 = L.marker([38.550195, -7.911947]).addTo(map); // A MatosCar Évora
-const marker58 = L.marker([38.550560, -7.911945]).addTo(map); // A MatosCar Évora
-const marker59 = L.marker([38.549854, -7.912371]).addTo(map); // A MatosCar Évora
-const marker60 = L.marker([38.550651, -7.912206]).addTo(map); // A MatosCar Évora
-const marker61 = L.marker([38.550486, -7.912483]).addTo(map); // A MatosCar Évora
+
 const marker62 = L.marker([40.550470, -7.244630]).addTo(map); // A MatosCar Guarda
 const marker63 = L.marker([38.022026, -7.858469]).addTo(map); // A MatosCar Beja
 const marker64 = L.marker([39.824243, -7.519186]).addTo(map); // A MatosCar Castelo Branco
-const marker65 = L.marker([39.808871, -7.517935]).addTo(map); // A MatosCar Castelo Branco
-const marker66 = L.marker([39.812657, -7.519397]).addTo(map); // A MatosCar Castelo Branco
+
 const marker67 = L.marker([40.148219, -7.499146]).addTo(map); // A MatosCar Fundão
 const marker68 = L.marker([39.267055, -7.431401]).addTo(map); // A MatosCar Portalegre
-const marker69 = L.marker([39.299399, -7.432002]).addTo(map); // A MatosCar Portalegre
-const marker70 = L.marker([39.287444, -7.431894]).addTo(map); // A MatosCar Portalegre
-const marker71 = L.marker([39.268401, -7.438969]).addTo(map); // A MatosCar Portalegre
-const marker72 = L.marker([39.295918, -7.432662]).addTo(map); // A MatosCar Portalegre
+
 
 // Multiato
 
@@ -155,7 +145,7 @@ const marker86 = L.marker([38.898664, -9.037618]).addTo(map); // Forumotor Ribat
 // Sodicentro
 
 const marker90 = L.marker([39.763303, -8.789368]).addTo(map); // Sodicentro Leiria
-const marker91 = L.marker([39.761836, -8.791405]).addTo(map); // Sodicentro Leiria
+
 const marker92 = L.marker([40.232447, -8.438656]).addTo(map); // Sodicentro Coimbra
 
 // SobralCar
@@ -226,7 +216,7 @@ marker7.bindPopup(template7);
 let template8 = `
 <div style="text-align:center">
     <h2> Mecanica Agricola </h2>
-    <image width="150" height="150" src="Mecanica Agricola.jpg"/>
+    <image width="200" height="75" src="Mecanica Agricola.jpg"/>
 </div>
 `
 marker8.bindPopup(template8);
@@ -234,7 +224,7 @@ marker8.bindPopup(template8);
 let template9 = `
 <div style="text-align:center">
     <h2> Rb Motor Comercio Automovel </h2>
-    <image width="150" height="100" src="Rb Motor Comercio Automovel.png"/>
+    <image width="100" height="100" src="Rb Motor Comercio Automovel.png"/>
 </div>
 `
 marker9.bindPopup(template9);
@@ -359,13 +349,6 @@ let template24 = `
 `
 marker24.bindPopup(template24);
 
-let template25 = `
-<div style="text-align:center">
-    <h2> Lua Crescente </h2>
-    <image width="100" height="100" src="Lua Crescente.jpg"/>
-</div>
-`
-marker25.bindPopup(template25);
 
 let template26 = `
 <div style="text-align:center">
@@ -425,13 +408,6 @@ let template32 = `
 `
 marker32.bindPopup(template32);
 
-let template33 = `
-<div style="text-align:center">
-    <h2> Litocar Coimbra </h2>
-    <image width="100" height="100" src="Litocar.png"/>
-</div>
-`
-marker33.bindPopup(template33);
 
 let template34 = `
 <div style="text-align:center">
@@ -473,13 +449,6 @@ let template38 = `
 `
 marker38.bindPopup(template38);
 
-let template39 = `
-<div style="text-align:center">
-    <h2> Litocar Castelo Branco </h2>
-    <image width="100" height="100" src="Litocar.png"/>
-</div>
-`
-marker39.bindPopup(template39);
 
 let template40 = `
 <div style="text-align:center">
@@ -488,15 +457,6 @@ let template40 = `
 </div>
 `
 marker40.bindPopup(template40);
-
-let template41 = `
-<div style="text-align:center">
-    <h2> Litocar Covilhã </h2>
-    <image width="100" height="100" src="Litocar.png"/>
-</div>
-`
-marker41.bindPopup(template41);
-
 let template42 = `
 <div style="text-align:center">
     <h2> Litocar Oliveira do Hospital </h2>
@@ -521,13 +481,6 @@ let template44 = `
 `
 marker44.bindPopup(template44);
 
-let template45 = `
-<div style="text-align:center">
-    <h2> Litocar Coimbra </h2>
-    <image width="100" height="100" src="Litocar.png"/>
-</div>
-`
-marker45.bindPopup(template45);
 
 let template46 = `
 <div style="text-align:center">
@@ -577,14 +530,6 @@ let template51 = `
 `
 marker51.bindPopup(template51);
 
-let template52 = `
-<div style="text-align:center">
-    <h2> Litocar Viseu  </h2>
-    <image width="100" height="100" src="Litocar.png"/>
-</div>
-`
-marker52.bindPopup(template52);
-
 //
 
 let template54 = `
@@ -605,53 +550,7 @@ let template55 = `
 `
 marker55.bindPopup(template55);
 
-let template56 = `
-<div style="text-align:center">
-    <h2> A MatosCar Évora </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker56.bindPopup(template56);
 
-let template57 = `
-<div style="text-align:center">
-    <h2> A MatosCar Évora </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker57.bindPopup(template57);
-
-let template58 = `
-<div style="text-align:center">
-    <h2> A MatosCar Évora </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker58.bindPopup(template58);
-
-let template59 = `
-<div style="text-align:center">
-    <h2> A MatosCar Évora </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker59.bindPopup(template59);
-
-let template60 = `
-<div style="text-align:center">
-    <h2> A MatosCar Évora </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker60.bindPopup(template60);
-
-let template61 = `
-<div style="text-align:center">
-    <h2> A MatosCar Évora </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker61.bindPopup(template61);
 
 let template62 = `
 <div style="text-align:center">
@@ -677,21 +576,6 @@ let template64 = `
 `
 marker64.bindPopup(template64);
 
-let template65 = `
-<div style="text-align:center">
-    <h2> A MatosCar Castelo Branco </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker65.bindPopup(template65);
-
-let template66 = `
-<div style="text-align:center">
-    <h2> A MatosCar Castelo Branco </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker66.bindPopup(template66);
 
 let template67 = `
 <div style="text-align:center">
@@ -709,37 +593,6 @@ let template68 = `
 `
 marker68.bindPopup(template68);
 
-let template69 = `
-<div style="text-align:center">
-    <h2> A MatosCar Portalegre </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker69.bindPopup(template69);
-
-let template70 = `
-<div style="text-align:center">
-    <h2> A MatosCar Portalegre </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker70.bindPopup(template70);
-
-let template71 = `
-<div style="text-align:center">
-    <h2> A MatosCar Portalegre </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker71.bindPopup(template71);
-
-let template72 = `
-<div style="text-align:center">
-    <h2> A MatosCar Portalegre </h2>
-    <image width="100" height="100" src="A MatosCar.jpg"/>
-</div>
-`
-marker72.bindPopup(template72);
 
 //
 
@@ -891,23 +744,15 @@ marker89.bindPopup(template89);
 let template90 = `
 <div style="text-align:center">
     <h2> Sodicentro Leiria </h2>
-    <image width="200" height="50" src="Sodicentro.webp"/>
+    <image width="200" height="50" src="Sodicentro.png"/>
 </div>
 `
 marker90.bindPopup(template90);
 
-let template91 = `
-<div style="text-align:center">
-    <h2> Sodicentro Leiria </h2>
-    <image width="200" height="50" src="Sodicentro.webp"/>
-</div>
-`
-marker91.bindPopup(template91);
-
 let template92 = `
 <div style="text-align:center">
     <h2> Sodicentro Coimbra </h2>
-    <image width="200" height="50" src="Auto Laranja Brava.png"/>
+    <image width="200" height="50" src="Sodicentro.png"/>
 </div>
 `
 marker92.bindPopup(template92);
@@ -1042,7 +887,8 @@ marker108.bindPopup(template108);
 
 let template109 = `
 <div style="text-align:center">
-    <h2> Gestauto </h2>
+    <h2> Nissan Boutigest </h2>
+    <image width="100" height="50" src="Nissan Boutigest.png"/>
 </div>
 `
 marker109.bindPopup(template109);
