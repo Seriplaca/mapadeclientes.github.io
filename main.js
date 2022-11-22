@@ -78,7 +78,6 @@ const marker124 = L.marker([38.729516298967845, -9.162973666833619]).addTo(map);
 const marker125 = L.marker([38.73816925600398, -9.142108149731904]).addTo(map); // FS Automóveis
 const marker126 = L.marker([39.10348560156309, -9.231606330416666]).addTo(map); // Evoperformance
 const marker127 = L.marker([37.95956297035084, -8.851273077161041]).addTo(map); // Centro Ciclista Sineense
-const marker128 = L.marker([38.7410411279202, -9.134269655116245]).addTo(map); // LCA Motors
 const marker129 = L.marker([38.55901774176555, -7.91338937731938]).addTo(map); // VLR cars
 const marker130 = L.marker([38.786405593077895, -9.224270882834276]).addTo(map); // Impactotal
 const marker131 = L.marker([39.47457888912671, -8.552362759794736]).addTo(map); //  Alves da Luz
@@ -353,7 +352,7 @@ marker24.bindPopup(template24);
 let template26 = `
 <div style="text-align:center">
     <h2> Motolusa </h2>
-    <image width="150" height="100" src="Motolusa.png"/>
+    <image width="200" height="100" src="Motolusa.png"/>
 </div>
 `
 marker26.bindPopup(template26);
@@ -952,7 +951,7 @@ marker116.bindPopup(template116);
 let template117 = `
 <div style="text-align:center">
     <h2> Moto Castanheira </h2>
-    <image width="225" height="45" src=" Logo MC WORK.png"/>
+    <image width="225" height="45" src="Moto Castanheira.png"/>
 </div>
 `
 marker117.bindPopup(template117);
@@ -984,7 +983,7 @@ marker120.bindPopup(template120);
 let template121 = `
 <div style="text-align:center">
     <h2> Conventauto </h2>
-    <image width="250" height="100" src="Conventauto.png"/>
+    <image width="250" height="50" src="Conventauto.png"/>
 </div>
 `
 marker121.bindPopup(template121);
@@ -1032,18 +1031,10 @@ marker126.bindPopup(template126);
 let template127 = `
 <div style="text-align:center">
     <h2> Centro Ciclista Sineense </h2>
-    <image width="100" height="100" src=" CCS.png"/>
+    <image width="175" height="100" src=" CCS.png"/>
 </div>
 `
 marker127.bindPopup(template127);
-
-let template128 = `
-<div style="text-align:center">
-    <h2> LCA Motors </h2>
-    <image width="100" height="100" src="LCA Motors.png"/>
-</div>
-`
-marker128.bindPopup(template128);
 
 let template129 = `
 <div style="text-align:center">
